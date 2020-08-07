@@ -1,0 +1,25 @@
+;; -*- no-byte-compile: t; -*-
+;;; ~/.doom.d/packages.el
+
+;;; Examples:
+;; (package! some-package)
+;; (package! another-package :recipe (:fetcher github :repo "username/repo"))
+;; (package! builtin-package :disable t)
+;; (package! pdf-tools)
+; (package! org-plus-contrib :recipe (:depth 'full))
+;; (package! org :recipe (:commit "1b3cc4e4631a07c41632040439b73c1938714308"))
+(package! org-ref :recipe (:host github :repo "jkitchin/org-ref"))
+(package! ox-ipynb :recipe (:host github :repo "srnnkls/ox-ipynb"))
+(package! swiper :recipe (:host github :repo "abo-abo/swiper"))
+(package! persistent-overlays :recipe (:host github :repo "srnnkls/Emacs-Persistent-Overlays"))
+(package! polymode :recipe (:host github :repo "polymode/polymode"))
+(package! poly-org :recipe (:host github :repo "polymode/poly-org"))
+(package! poly-markdown :recipe (:host github :repo "polymode/poly-markdown"))
+(package! dap-mode :recipe (:host github :repo "emacs-lsp/dap-mode"))
+(package! company-quickhelp :recipe (:host github :repo "expez/company-quickhelp"))
+(package! imenu-anywhere)
+(package! academic-phrases :recipe (:host github :repo "nashamri/academic-phrases"))
+(package! powerthesaurus :recipe (:host github :repo "SavchenkoValeriy/emacs-powerthesaurus"))
+(package! vcsh :recipe (:host gitlab :repo "stepnem/vcsh-el"))
+(package! magit-vcsh :recipe (:host gitlab :repo "stepnem/magit-vcsh-el"))
+(package! zmq)
